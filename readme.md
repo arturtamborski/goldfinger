@@ -13,3 +13,7 @@ The program will use that to go trough every user named `s<something>`
 
 It might be bit overengineered, but hey, it was fun to write it like that.  
 Output is a json list with dictionaries representing users.
+
+
+Also, there's some weird bug in finger, it can't print unicode characters  
+correctly, so I'm translating it like so.
